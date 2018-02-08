@@ -20,16 +20,14 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('tut');
+		$data['content']='tut_page/tut_content';
+		$data['sidebar']='tut_page/tut_sidebar';
+		$data['header']='tut_page/tut_header';
+		$this->load->view('tut', $data);
 	}
 
 	public function tes1()
 	{
 		$this->load->view('welcome_message');
-	}
-
-	public function tes2()
-	{
-		$this->load->view('tot');
 	}
 }
