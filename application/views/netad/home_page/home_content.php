@@ -1,14 +1,18 @@
 <div class="col-md-6">
           <div class="box box-solid">
             <!-- /.box-header -->
-            <div class="box-body">
+            <div class="box-body" style="
+    padding-top: 27px;
+">
               <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                   <li data-target="#carousel-example-generic" data-slide-to="0" class=""></li>
-                  <li data-target="#carousel-example-generic" data-slide-to="1" class="active"></li>
-                  <li data-target="#carousel-example-generic" data-slide-to="2" class=""></li>
+                  <li data-target="#carousel-example-generic" data-slide-to="1" class=""></li>
+                  <li data-target="#carousel-example-generic" data-slide-to="2" class="active"></li>
                 </ol>
-                <div class="carousel-inner">
+                <div class="carousel-inner" style="
+    
+">
                   <div class="item">
                     <img src="http://placehold.it/900x500/39CCCC/ffffff&amp;text=I+Love+Bootstrap" alt="First slide">
 
@@ -16,14 +20,14 @@
                       First Slide
                     </div>
                   </div>
-                  <div class="item active">
+                  <div class="item">
                     <img src="http://placehold.it/900x500/3c8dbc/ffffff&amp;text=I+Love+Bootstrap" alt="Second slide">
 
                     <div class="carousel-caption">
                       Second Slide
                     </div>
                   </div>
-                  <div class="item">
+                  <div class="item active">
                     <img src="http://placehold.it/900x500/f39c12/ffffff&amp;text=I+Love+Bootstrap" alt="Third slide">
 
                     <div class="carousel-caption">
@@ -43,12 +47,10 @@
           </div>
           <!-- /.box -->
         </div>
-
-
-
-                <div class="line"></div>
                 
-                <h2>Lorem Ipsum Dolor</h2>
+                <h2 style="
+    margin-top: 25px;
+">Lorem Ipsum Dolor</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
                 <div class="line"></div>

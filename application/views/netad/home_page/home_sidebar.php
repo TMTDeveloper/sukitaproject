@@ -21,7 +21,7 @@
     transform-origin: bottom left;
     padding-top: 0px;
 ">
-                    <li class="active">
+                    <li class="">
                         <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="true" class="" style="color: #000;
     background: #ffffff;">Terkini</a>
                         <ul class="list-unstyled collapse in" id="homeSubmenu" aria-expanded="true" style="">

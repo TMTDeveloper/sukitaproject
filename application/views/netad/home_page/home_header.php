@@ -43,6 +43,9 @@
     padding-right: 5px;
     padding-top: 30px;
 ">
+
+
+
             <!-- /.box-header -->
             <!-- form start -->
             <form class="form-horizontal">
@@ -50,14 +53,18 @@
                 <div class="form-group">
                   <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
 
-                  <div class="col-sm-10">
+                  <div class="col-sm-10" style="
+    padding-left: 20px;
+">
                     <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
                   </div>
                 </div>
                 <div class="form-group">
                   <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
 
-                  <div class="col-sm-10">
+                  <div class="col-sm-10" style="
+    padding-left: 20px;
+">
                     <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
                   </div>
                 </div>
@@ -87,3 +94,45 @@
                         </div>
                     </div>
                 </nav>
+
+                <ul class="nav nav-tabs" style="font-size: 20px;">
+  <li class="nav-item">
+    <a class="nav-link active" href="#">Ada Aja</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Hari ini</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Hubungan</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" href="#">Kuliner</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link active" href="#">Motivasi</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Tips</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Travel</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" href="#">Tutorial</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link active" href="#">Review</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Film</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Pojok Komik</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" href="#">Mistis</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" href="#">Story</a>
+  </li>
+</ul>
