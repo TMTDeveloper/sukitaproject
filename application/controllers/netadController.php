@@ -11,5 +11,5 @@ class netadController extends CI_Controller {
 		$data['header']='netad/home_page/home_header';
 		$this->load->view('netad/home', $data);
 	}
-
+	
 }
