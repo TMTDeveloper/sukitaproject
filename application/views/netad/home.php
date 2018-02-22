@@ -6,10 +6,10 @@
         <title>SUKITA ID - #SupayaKitaTahu</title>
 
          <!-- Bootstrap CSS CDN -->
-        <link rel="stylesheet" href="http://localhost/sukita_project2/assets/Bootstrap/bootstrap.min.css">
+        <link rel="stylesheet" href="http://localhost/sukitaproject/assets/Bootstrap/bootstrap.min.css">
         <!-- Our Custom CSS -->
-        <link rel="stylesheet" href="http://localhost/sukita_project2/assets/Bootstrap/style5.css">
-        <link rel="stylesheet" href="http://localhost/sukita_project2/assets/snipp/netna.css">
+        <link rel="stylesheet" href="http://localhost/sukitaproject/assets/Bootstrap/style5.css">
+        <link rel="stylesheet" href="http://localhost/sukitaproject/assets/snipp/netna.css">
     </head>
     <body>
 
@@ -352,9 +352,9 @@
         </div>
 
         <!-- jQuery CDN -->
-         <script src="http://localhost/sukita_project2/assets/Bootstrap/jquery-1.12.0.min.js"></script>
+         <script src="http://localhost/sukitaproject/assets/Bootstrap/jquery-1.12.0.min.js"></script>
          <!-- Bootstrap Js CDN -->
-         <script src="http://localhost/sukita_project2/assets/Bootstrap/bootstrap.min.js"></script>
+         <script src="http://localhost/sukitaproject/assets/Bootstrap/bootstrap.min.js"></script>
 
          <script type="text/javascript">
              $(document).ready(function () {
@@ -364,8 +364,8 @@
                  });
              });
          </script>
-         <script src=" http://localhost/sukita_project2/assets/snipp/readmore.js "></script>
-         <script src=" http://localhost/sukita_project2/assets/snipp/news.js "></script>
+         <script src=" http://localhost/sukitaproject/assets/snipp/readmore.js "></script>
+         <script src=" http://localhost/sukitaproject/assets/snipp/news.js "></script>
 
 
 </body></html>
