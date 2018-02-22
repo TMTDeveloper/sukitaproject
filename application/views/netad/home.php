@@ -6,10 +6,10 @@
         <title>SUKITA ID - #SupayaKitaTahu</title>
 
          <!-- Bootstrap CSS CDN -->
-        <link rel="stylesheet" href="http://localhost/sukitaproject/assets/Bootstrap/bootstrap.min.css">
+        <link rel="stylesheet" href="<?= base_url();?>/assets/Bootstrap/bootstrap.min.css">
         <!-- Our Custom CSS -->
-        <link rel="stylesheet" href="http://localhost/sukitaproject/assets/Bootstrap/style5.css">
-        <link rel="stylesheet" href="http://localhost/sukitaproject/assets/snipp/netna.css">
+        <link rel="stylesheet" href="<?= base_url();?>/assets/Bootstrap/style5.css">
+        <link rel="stylesheet" href="<?= base_url();?>/assets/snipp/netna.css">
     </head>
     <body>
 
@@ -29,7 +29,7 @@
 ">
                 <div class="sidebar-header" style="padding: 20px;
     background: #ffffff;">
-                    <img src=" http://localhost/sukita_project/assets/img/sukitap.png " alt="Sukita" href="#" style="
+                    <img src=" <?= base_url();?>assets/img/sukitap.png " alt="Sukita" href="#" style="
     width: 200px;
 ">
                 </div>
@@ -83,8 +83,10 @@
 
                                 
                                 
-                                
-                                                  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Login</button>
+                                            <form class="form-horizontal" action="<?= base_url('netadController/login_action');?>" method="post">
+                                                  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false" style="
+    margin-top: 2px;
+">Login</button>
                   <ul class="dropdown-menu" style="
     width: 402px;
     padding-left: 5px;
@@ -96,7 +98,7 @@
 
             <!-- /.box-header -->
             <!-- form start -->
-            <form class="form-horizontal">
+
               <div class="box-body">
                 <div class="form-group">
                   <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
@@ -104,7 +106,7 @@
                   <div class="col-sm-10" style="
     padding-left: 20px;
 ">
-                    <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                    <input type="text" class="form-control" id="inputEmail3" placeholder="Email" name="email_user">
                   </div>
                 </div>
                 <div class="form-group">
@@ -113,7 +115,7 @@
                   <div class="col-sm-10" style="
     padding-left: 20px;
 ">
-                    <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                    <input type="password" class="form-control" id="inputPassword3" placeholder="Password" name="password_user">
                   </div>
                 </div>
                 <div class="form-group">
@@ -128,14 +130,13 @@
               </div>
               <!-- /.box-body -->
               <div class="box-footer">
-                <button type="submit" class="btn btn-default">Cancel</button>
                 <button type="submit" class="btn btn-info pull-right">Sign in</button>
               </div>
               <!-- /.box-footer -->
-            </form>
+            
           
               
-            </ul>
+            </ul></form>
                 
             
                             </ul>
@@ -150,7 +151,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-4 date-sec">
-        <div id="Date">Mon, 12 February 2018</div>
+        <div id="Date">Fri, 23 February 2018</div>
       </div>
             <div class="col-lg-3 offset-lg-5">
         <div class="social-icon"> <a target="_blank" href="#" class=" fa fa-facebook"></a> <a target="_blank" href="#" class=" fa fa-twitter"></a> <a target="_blank" href="#" class=" fa fa-google-plus"></a> <a target="_blank" href="#" class=" fa fa-linkedin"></a> <a target="_blank" href="#" class=" fa fa-youtube"></a> <a target="_blank" href="#" class=" fa fa-vimeo-square"></a> </div>
@@ -352,9 +353,9 @@
         </div>
 
         <!-- jQuery CDN -->
-         <script src="http://localhost/sukitaproject/assets/Bootstrap/jquery-1.12.0.min.js"></script>
+         <script src="<?= base_url();?>/assets/Bootstrap/jquery-1.12.0.min.js"></script>
          <!-- Bootstrap Js CDN -->
-         <script src="http://localhost/sukitaproject/assets/Bootstrap/bootstrap.min.js"></script>
+         <script src="<?= base_url();?>/assets/Bootstrap/bootstrap.min.js"></script>
 
          <script type="text/javascript">
              $(document).ready(function () {
@@ -364,8 +365,8 @@
                  });
              });
          </script>
-         <script src=" http://localhost/sukitaproject/assets/snipp/readmore.js "></script>
-         <script src=" http://localhost/sukitaproject/assets/snipp/news.js "></script>
+         <script src=" <?= base_url();?>/assets/snipp/readmore.js "></script>
+         <script src=" <?= base_url();?>/assets/snipp/news.js "></script>
 
 
 </body></html>

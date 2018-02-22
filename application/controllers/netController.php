@@ -1,12 +1,22 @@
-<?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+<?php 
 
-class netController extends CI_Controller {
+class netController extends CI_Controller{
 
-	
-	public function index()
-	{
+	function __construct(){
+		parent::__construct();
+
+		if($this->session->userdata('status') != 'login'){
+			redirect(base_url());
+		}
+	}
+
+	function index(){
 		$this->load->view('net/net_dashboard');
 	}
 
+
+
+
 }
+
+ ?>
